@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify new item added in the cart",
+        "description": "",
+        "id": "this-is-for-cart-feature-functionality;verify-new-item-added-in-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 835788000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "newlogin.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 438170200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Nokia lumia",
+            "match": {
+              "location": "newcart.click_Nokia_lumia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5189786800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click add to cart",
+            "match": {
+              "location": "newcart.click_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265357400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click cart",
+            "match": {
+              "location": "newcart.click_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4467709800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify new item added to cart",
+            "match": {
+              "location": "newcart.verify_new_item_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@newcart"
+          }
+        ]
+      }
+    ],
+    "name": "This is for cart feature functionality",
+    "description": "",
+    "id": "this-is-for-cart-feature-functionality",
+    "keyword": "Feature",
+    "uri": "newcart.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify login",
+        "description": "",
+        "id": "this-feature-is-for-login-functinality;verify-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178958200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "newlogin.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10068743100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Login Link",
+            "match": {
+              "location": "newlogin.click_Login_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190289100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Username and Enter Password and Click Login button",
+            "match": {
+              "location": "newlogin.enter_Username_and_Enter_Password_and_Click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5392592300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can login with valid crad",
+            "match": {
+              "location": "newlogin.verify_user_can_login_with_valid_crad()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@newcart"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for Login Functinality",
+    "description": "",
+    "id": "this-feature-is-for-login-functinality",
+    "keyword": "Feature",
+    "uri": "newlogin.feature"
+  }
+]
